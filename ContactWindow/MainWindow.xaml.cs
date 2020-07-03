@@ -51,15 +51,7 @@ namespace ContactWindow
                 
             }
             if (contacts != null)
-            {
-                //foreach(var c in contacts)
-                //{
-
-                //    contactsListView.Items.Add(new ListViewItem()
-                //    {
-                //        Content = c.Name + " " +c.Phone
-                //    }) ;
-                //}
+            { 
 
                 contactsListView.ItemsSource = contacts;
 
