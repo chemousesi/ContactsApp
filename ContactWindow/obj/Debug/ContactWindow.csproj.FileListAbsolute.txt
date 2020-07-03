@@ -1,0 +1,17 @@
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.csprojAssemblyReference.cache
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\MainWindow.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\NewContactWindow.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\App.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow_MarkupCompile.cache
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow_MarkupCompile.lref
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\bin\Debug\ContactWindow.exe.config
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\bin\Debug\ContactWindow.exe
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\bin\Debug\ContactWindow.pdb
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\MainWindow.baml
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\NewContactWindow.baml
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.g.resources
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.Properties.Resources.resources
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.csproj.GenerateResource.cache
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.csproj.CoreCompileInputs.cache
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.exe
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.pdb
