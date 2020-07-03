@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ContactWindow.Classes;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,7 @@ namespace ContactWindow
         public MainWindow()
         {
             InitializeComponent();
+            ReadDatabase();
         }
 
 
@@ -31,6 +34,43 @@ namespace ContactWindow
         {
             NewContactWindow newContactWindow = new NewContactWindow();
             newContactWindow.ShowDialog();
+
+            ReadDatabase();
         }
+
+
+        void ReadDatabase()
+        {
+
+            List<Contact> contacts;
+
+            using (SQLite. SQLiteConnection conn = new SQLite.SQLiteConnection(App.databasePath))
+            {
+                conn.CreateTable<Contact>();
+                contacts = conn.Table<Contact>().ToList();
+                
+            }
+            if (contacts != null)
+            {
+                //foreach(var c in contacts)
+                //{
+
+                //    contactsListView.Items.Add(new ListViewItem()
+                //    {
+                //        Content = c.Name + " " +c.Phone
+                //    }) ;
+                //}
+
+                contactsListView.ItemsSource = contacts;
+
+            }
+
+
+        }
+
+
+
+
+
     }
 }

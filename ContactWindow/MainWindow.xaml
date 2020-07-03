@@ -10,6 +10,8 @@
         <StackPanel>
             <Button Content="New contact"
                     Click="Button_click"/>
+            <ListView x:Name="contactsListView"
+                      Margin="0 5 0 0"/>
         </StackPanel>
     </Grid>
 </Window>
