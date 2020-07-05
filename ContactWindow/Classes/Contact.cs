@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ContactWindow.Classes
 {
-    class Contact
+    public class Contact
     {
         [PrimaryKey, AutoIncrement]
 

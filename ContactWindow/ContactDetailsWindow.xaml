@@ -1,0 +1,32 @@
+﻿<Window x:Class="ContactWindow.ContactDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactWindow"
+        mc:Ignorable="d"
+        Title="Contact Details" Height="300" Width="300">
+    <Grid>
+        <StackPanel Margin=" 10">
+            <TextBox x:Name="nameTextBox"
+                       Margin="0, 0, 0, 5"/>
+            <TextBox x:Name="emailTextBox"
+                       Margin="0, 0, 0, 5"/>
+            <TextBox x:Name="phoneNumberTextBox"
+                       Margin="0, 0, 0, 5"/>
+            <Button Content="Update"
+                    x:Name="saveButton"
+                    Click="UpdateButton_Click"/>
+            <Button Content="Delete"
+                    Foreground="Wheat"
+                    Background="Red"
+                    Margin="0 7 0 0"
+                
+                x:Name="DeleteButton"
+                Click="deleteButton_Click"/>
+
+
+        </StackPanel>
+        
+    </Grid>
+</Window>

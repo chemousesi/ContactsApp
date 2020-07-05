@@ -34,3 +34,8 @@ C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\bin\Debug\System.Numer
 C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow_Content.g.cs
 C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactWindow.csproj.CopyComplete
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactDetailsWindow.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\ContactDetailsWindow.baml
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\Controls\ContactControl.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\obj\Debug\Controls\ContactControl.baml

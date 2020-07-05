@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Chamsou\source\repos\ContactWindow\ContactWindow\App.xaml
-2-1710316630
+41715188866
 3-1145810878
-7919011598
+9-1999177558
 1271546809867
-MainWindow.xaml;NewContactWindow.xaml;
+Controls\ContactControl.xaml;MainWindow.xaml;ContactDetailsWindow.xaml;NewContactWindow.xaml;
 
 False
 

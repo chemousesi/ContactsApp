@@ -3,26 +3,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:ContactWindow.Controls"
         xmlns:local="clr-namespace:ContactWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ContactsApp" Height="450" Width="800">
     <Grid>
-        <StackPanel>
+        <StackPanel Margin="20">
             <Button Content="New contact"
                     Click="Button_click"/>
+
+            <TextBox Margin="10 5 10 5"
+                     TextChanged="TextBox_TextChanged"/>
+
             <ListView x:Name="contactsListView"
                       Margin="10 5 10 10"
-                      Height="280">
+                      Height="280" SelectionChanged="ListView_SelectionChanged">
+
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
-                            <TextBlock Text="{Binding Name}" FontSize="20"
-                                       FontWeight="Bold" />
-                            <TextBlock Text="{Binding Email}" FontSize="15 "
-                                       Foreground="DodgerBlue"/>
-                            <TextBlock Text="{Binding Phone}" FontSize="15"
-                                       FontStyle="Italic"/>
-                        </StackPanel>
+                        <uc:ContactControl Width="1200" Contact="{Binding}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
                 
